@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from mongita import MongitaClientDisk
-from .data import get_people_data
+from .static_data import get_people_data
 from .models import Person
 
 
