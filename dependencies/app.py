@@ -2,8 +2,8 @@ import threading
 import time
 import uvicorn
 from fastapi import FastAPI
-from sandbox.cache_idea.my_route import router
-from sandbox.cache_idea.my_utility import service
+from my_route import router
+from my_utility import service
 
 
 def update_service_continuously():
