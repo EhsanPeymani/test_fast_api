@@ -6,6 +6,6 @@ router = APIRouter(prefix="/numbers")
 
 
 @router.get("/")
-def get_numbers(service: MyService = Depends(get_service)):
+def get_numbers(service: MyService = Depends(MyService)):
     print(f"Getting numbers {service.numbers}")
     return {"numbers": service.numbers}
