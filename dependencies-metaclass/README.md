@@ -1,4 +1,4 @@
-Here, I am going to use the 'metaclass' singleton pattern and FastAPI dependency injection.
+Here, I am going to use the module-based singleton pattern and FastAPI dependency injection.
 
 The service generates random numbers to mimic receiving data from remote sensors.
 The data is stored internally, and are accessible via `property: numbers`.
