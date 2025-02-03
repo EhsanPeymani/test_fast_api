@@ -58,7 +58,7 @@ async def update_person(person_id: int, person: Person):
 
 # upsert: update and insert if the document does not exist already
 @app.put("/peopel/upsert/{person_id}")
-async def update_person(person_id: int, person: Person):
+async def update_person1(person_id: int, person: Person):
     people.replace_one({"id": person_id}, person.model_dump(), upsert=True)
     return person
 

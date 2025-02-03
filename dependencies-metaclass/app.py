@@ -2,11 +2,13 @@ import threading
 import time
 import uvicorn
 from fastapi import FastAPI
+from my_service import MyService
+from my_utility import get_service
 from my_route import router
-from my_utility import service
 
 
 def update_service_continuously():
+    service = get_service()
     while True:
         service.update()
         time.sleep(1)

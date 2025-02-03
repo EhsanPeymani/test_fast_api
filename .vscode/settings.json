@@ -8,7 +8,7 @@
     "powershell.integratedConsole.focusConsoleOnExecute": true,   // Focuses the PowerShell Integrated Console when running code
     "powershell.integratedConsole.suppressStartupBanner": false,  // Shows/hides the startup message
     "python.testing.pytestArgs": [
-        "tests"
+        "dependencies-metaclass"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
